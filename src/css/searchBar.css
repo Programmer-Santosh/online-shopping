@@ -1,0 +1,16 @@
+.searchBox input{
+   padding-left: 10px;
+}
+.searchBox input::placeholder{
+    color:orangered;
+}
+
+#search-icon{
+color:orangered;
+font-size: 20px;
+}
+.search-btn{
+    position: absolute;
+    
+    right: 12px;
+}

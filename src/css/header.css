@@ -1,0 +1,49 @@
+.container{
+    width:100%;
+    margin:auto;
+}
+
+.top-strip{
+    border-top: 2px solid rgba(129, 123, 123, 0.2);
+    border-bottom: 2px solid rgba(129, 123, 123, 0.2);
+    
+}
+.logo>img{
+    height:50px;
+}
+.link{
+    color: dodgerblue;
+}
+.link:hover{
+    color: #ff4500;
+}
+
+/* .parent{
+    position:relative;
+}
+.child{
+    margin-top: 5px;;
+    position: absolute;
+    top: 1rem;
+    left:-1rem;
+    background-color: rgba(0, 0, 0,0.2);
+    padding:20px;
+    border-radius: 10px;
+    display: none;
+}
+.parent:hover .child{
+    display: block;
+}
+.child>li:hover {
+    color: orangered;
+    cursor: pointer;
+} */
+
+@media screen and (min-width:200px) and (max-width:720px){
+    .categoriesTitle{
+        display: none;
+    }
+}
+
+
+  

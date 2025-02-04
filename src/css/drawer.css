@@ -1,0 +1,55 @@
+.drawer-head {
+  margin-top: 10px;
+  font-weight: 600;
+  color: dodgerblue;
+}
+.drawer-body .link {
+  color: rgb(71, 71, 71);
+  width: 100%;
+  display:flex;
+  align-items: center;
+  justify-content: flex-start;
+  
+}
+
+.drawer-body {
+  margin-top: 20px;
+}
+.submenu-title>Button{
+    color:Black !important;
+   
+}
+
+.drawer-head{
+position:sticky;
+top: 0;
+background-color: rgb(247, 242, 245);
+padding:20px;
+z-index: 1;
+}
+.submenu-items{
+ 
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  
+ 
+}
+
+.submenu-items>li>Button{
+  width: 100%;
+
+  font-size: 10px !important;
+}
+.submenu-title>Button{
+  font-size: 12px;
+ 
+
+}
+.submenu-title>Button:hover{
+ color:orangered!important;
+}
+.submenu-items>li>Button>.link:hover{
+ 
+  color:orangered !important;
+}
