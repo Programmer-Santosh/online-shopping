@@ -1,0 +1,9 @@
+.box > img {
+  background-size: cover;
+  height: 200px;
+  width: 100%;
+  border-radius: 1rem !important;
+}
+.box > img:hover {
+  transform: scale(1.09) !important;
+}

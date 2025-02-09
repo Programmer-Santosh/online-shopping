@@ -1,0 +1,12 @@
+.top-strip{
+    display:flex;
+margin:auto;
+justify-content: space-around;
+}
+.left-part{
+    display: flex;
+    
+}
+.right-part{
+    max-width: 60vw;
+}
